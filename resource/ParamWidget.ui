@@ -28,7 +28,6 @@
      <property name="contextMenuPolicy">
       <enum>Qt::CustomContextMenu</enum>
      </property>
-     
      <property name="dragEnabled">
       <bool>true</bool>
      </property>
@@ -40,7 +39,7 @@
       </property>
      <column>
       <property name="text">
-       <string>observed value</string>
+       <string>parameter</string>
       </property>
      </column>
      <column>
@@ -48,21 +47,11 @@
        <string>type</string>
       </property>
      </column>
-     <!-- <column>
+     <column>
       <property name="text">
        <string>min</string>
       </property>
      </column>
-     <column>
-      <property name="text">
-       <string>max</string>
-      </property>
-     </column>
-     <column>
-      <property name="text">
-       <string>default</string>
-      </property>
-     </column> -->
 
      <column>
       <property name="text">
@@ -72,19 +61,22 @@
 
      <column>
       <property name="text">
-       <string> </string>
-      </property>
-
-        <property name="maximumWidth">
-        <number>30</number>
+       <string>max</string>
       </property>
      </column>
-
      <!-- <column>
+      <property name="text">
+       <string>default</string>
+      </property>
+     </column>
+ -->
+     
+
+     <column>
       <property name="text">
        <string> </string>
       </property>
-     </column> -->
+     </column>
 
     </widget>
    </item>
